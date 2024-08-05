@@ -100,12 +100,13 @@ const Widget: React.FC = () => {
         <Box
         position={'absolute'}
         bottom={'-50px'}
-        bg={'orange'}
+        bg={'orange.400'}
         color={'white'}
         p={3}
         borderRadius={5}
         wordBreak={'break-all'}
         zIndex={9999}
+        pointerEvents={'none'}
         _after={{
           content: '""',
           position: 'absolute',

@@ -9,7 +9,7 @@ This document provides a detailed explanation of the technical solution implemen
 ### 1. `useButtonFinder` Hook
 
 #### Purpose
-The `useButtonFinder` hook is designed to locate a button on the page based on specific criteria and attach an event listener to it. The hook also manages the timing of the button's appearance on the page.
+The `useButtonFinder` hook is designed to locate a button on the page based on specific criteria and attach an event listener to it. The hook also manages the timing of the button's appearance on the page. It finds the button based on its text content and parent attributes.
 
 ### 2. `Widget` Component
 
