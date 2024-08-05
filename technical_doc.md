@@ -25,4 +25,4 @@ The `Widget` component provides a step-by-step interactive guide to assist users
 
 - If the user close the modal when the explanation text is shown, the explanation text should be shown again when the user open the modal again. This doesn't work.
 
-- The explanation text shouldn't depends on setTimeout. If the button depends on a request, we should find a way to detect the button after the request is completed. Because now, it's based on setTimeout and if the request is longer than the setTimeout, it doesn't work. (We don't have this case in the subject but it's a good point to mention).
+- The explanation text shouldn't depends on setTimeout. If the button depends on a request, we should find a way to detect the button after the request is completed. Because now, it's based on setTimeout and if the request is longer than the setTimeout, it doesn't work. (We don't have this case in the case but it's a good point to mention).
